@@ -1,0 +1,356 @@
+@media (max-width: 550px) {
+    nav {
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu i {
+        font-size: 23px;
+        margin-right: -30px;
+    }
+
+    nav .bolimlar {
+        display: none;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .sidebar {
+        position: fixed;
+        z-index: 10 !important;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        background: #fff;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        transition: 0.3s ease-out;
+        /* border: 1px solid red; */
+    }
+
+    .sidebar.active {
+        right: 100%;
+        transition: 0.43 ease-in;
+        z-index: 10;
+    }
+
+    .M-logo {
+        width: 70%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        /* border: 1px solid red; */
+        padding-left: 39px;
+    }
+
+    .M-logo a img {
+        width: 110px;
+    }
+
+    .close i {
+        position: absolute;
+        right: 45px;
+        top: 29px;
+        font-size: 30px;
+    }
+
+    .links-container {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        /* border: 1px solid blue; */
+    }
+
+    .links-container a {
+        width: 100%;
+        border-bottom: .7px solid black;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        gap: 20px;
+        text-decoration: none;
+        color: black
+            /* justify-content: center; */
+    }
+
+    .links-container a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .links-container img {
+        width: 70px;
+    }
+
+    nav .logo a img {
+        /* border: 1px solid red; */
+        width: 110px;
+        margin-left: -100px;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0 !important;
+        /* border: 1px solid red; */
+    }
+
+    .mainText {
+        width: 100% !important;
+        height: 400px !important;
+        padding: 40px !important;
+        /* border: 1px solid red; */
+    }
+
+    .mainText>button {
+        width: 150px !important;
+        height: 50px !important;
+        font-size: 15px !important;
+    }
+
+    .mainImg {
+        width: 100% !important;
+        height: auto !important;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainImg img {
+        width: 100% !important;
+        height: 300px !important;
+    }
+
+    .xizmatlar {
+        display: none !important;
+    }
+
+    .xizmatlar2 {
+        width: 100%;
+        height: auto !important;
+        display: block !important;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 40px !important;
+    }
+
+    .xizmatText2 {
+        width: 100%;
+        height: 64px;
+        /* border: 1px solid blue; */
+        display: block;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .xizmatText2>h1 {
+        width: 100% !important;
+        height: 60px !important;
+        color: #000;
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .xizmatCard2 {
+        width: 308px;
+        height: 379px;
+        flex-shrink: 0;
+        border-radius: 40px;
+        /* border: 1px solid red; */
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+
+    .xizmatCards2 {
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .xizmatCard2 h2 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .xizmatCard2 p {
+        color: #757575;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        margin-top: 50px;
+    }
+
+    .joylar {
+        width: 100%;
+        height: 1800px !important;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+
+    .joylar h1 {
+        font-size: 20px;
+    }
+
+    .joylarCards {
+        width: 100%;
+        height: auto !important;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .mainTematik {
+        width: 100%;
+        height: auto;
+    }
+
+    .tematik {
+        width: 95%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+
+    .tematikImg {
+        width: 100% !important;
+        height: 270px !important;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tematikText {
+        width: 100% !important;
+        height: 150px !important;
+        /* border: 1px solid red; */
+        padding: 0 30px !important;
+    }
+
+    .tematikText h1 {
+        font-weight: 300;
+        margin-top: 0 !important;
+    }
+
+    .Paketlar {
+        width: 100% !important;
+        height: 1600px !important;
+        /* border: 1px solid red; */
+        margin-top: 50px;
+    }
+
+    .paketCards {
+        height: auto !important;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .mainMurojat {
+        width: 100%;
+        height: 450px !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .murojatText {
+        width: 100% !important;
+        padding: 20px;
+    }
+
+    .murojatText h1 {
+        color: #000;
+        font-size: 30px !important;
+        font-weight: 900;
+    }
+
+    .murojatText p {
+        width: 90% !important;
+        margin-left: 50px !important;
+        font-size: 15px;
+    }
+
+    .murojatInput {
+        width: 100% !important;
+        height: 300px !important;
+        /* border: 1px solid gold; */
+        display: flex;
+        align-items: center;
+    }
+
+    .Input {
+        width: 85% !important;
+        height: 60px !important;
+        transform: translateX(20px) !important;
+
+    }
+
+    .Input input {
+        width: 250px !important;
+    }
+
+    .Input button {
+        height: 50px !important;
+        font-size: 10px !important;
+        margin-right: 5px;
+    }
+
+    .murojatBox {
+        width: 90% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        width: 100% !important;
+        height: auto !important;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+
+    .fooTop {
+        width: 100% !important;
+        height: auto !important;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: column;
+        padding: 20px !important;
+
+    }
+
+    .fooBot {
+        width: 100%;
+        padding: 20px !important;
+        display: flex;
+        align-items: center;
+
+    }
+}
